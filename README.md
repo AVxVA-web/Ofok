@@ -27,3 +27,13 @@ npm run dev
 - `npm test` — تشغيل الاختبارات الأساسية لمنطق النظام
 - `npm run build` — بناء نسخة الإنتاج داخل `dist/`
 - `npm start` — تشغيل خادم الإنتاج
+
+## النشر على GitHub Pages
+
+المشروع مهيأ للعمل على روابط GitHub Pages الفرعية (`https://<user>.github.io/<repo>/`) عبر مسارات نسبية وملف تشغيل تلقائي `.github/workflows/deploy-pages.yml`.
+
+لتفعيل النشر من إعدادات المستودع على GitHub:
+1. افتح **Settings** ثم **Pages**.
+2. في **Build and deployment → Source** اختر **GitHub Actions** (وليس `Deploy from a branch`).
+3. بعد أي رفع على فرع `main` سيتم بناء المشروع ونشره تلقائياً على رابط GitHub Pages.
+
