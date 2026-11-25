@@ -2,7 +2,13 @@ node_modules/
 build/
 dist/
 coverage/
+server.js
+.aistudio/
+.playwright-cli/
 .DS_Store
+Thumbs.db
 *.log
+*.tsbuildinfo
 .env*
 !.env.example
+
